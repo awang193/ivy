@@ -1,0 +1,11 @@
+p {
+    font-family: "Roboto", Roboto, monospace;
+    font-weight: bold;
+    color: rgb(88, 73, 54);
+}
+
+button {
+    color: rgb(88, 73, 54);
+    border-style: none;
+    background-color: transparent;
+}

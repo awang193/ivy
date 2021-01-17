@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+.todo-header {
+    background-color: rgb(255, 244, 231);
+}
+
+.todo-input input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.todo-input button {
+    border-radius: 10px;
+    padding: 5px;
+    background-color: transparent;
+    transition: all 500ms linear;
+    -webkit-transition: all 500ms linear;
+    -moz-transition: all 500ms linear;
+}
+
+.todo-input button:hover {
+    background-color: bisque;
+    transition: all 500ms linear;
+    -webkit-transition: all 500ms linear;
+    -moz-transition: all 500ms linear;
+}

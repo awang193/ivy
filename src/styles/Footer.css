@@ -1,0 +1,11 @@
+.todo-footer {
+    background-color: rgb(255, 244, 231);
+    position: absolute;
+    bottom: 0px;
+    height: 15%;
+}
+
+.todo-footer p {
+    font-size: 10pt;
+    height: 50%;
+}
