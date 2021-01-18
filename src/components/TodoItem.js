@@ -18,7 +18,14 @@ function TodoItem({ todo, toggleTodo, removeTodo }) {
     return (
         <li className="todo-item">
             <Row>
-                <Col className="sm-8 text-left">{todo.task}</Col>
+                <Col className="sm-8 text-left">
+                    <span
+                        className={todo.completed && "disabled"}
+                        onClick={handleToggle}
+                    >
+                        {todo.task}
+                    </span>
+                </Col>
                 <Col className="sm-3">
                     <span>
                         {!todo.completed ? (

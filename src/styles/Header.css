@@ -1,13 +1,21 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 
 .todo-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: rgb(255, 244, 231);
+    height: 20%;
 }
 
 .todo-input input {
     border: none;
     outline: none;
     background-color: transparent;
+}
+
+.todo-input input::placeholder {
+    opacity: 0.3;
 }
 
 .todo-input button {

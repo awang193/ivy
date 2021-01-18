@@ -49,7 +49,7 @@ function App() {
     };
 
     return (
-        <Container fluid className="p-0" align="center">
+        <Container fluid className="todo-app p-0" align="center">
             <Header addTodo={addTodo} />
             <TodoList
                 todos={todos}

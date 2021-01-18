@@ -1,24 +1,46 @@
 .todo-item {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    word-wrap: break-word;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    height: 16.67%;
+}
+
+.disabled {
+    text-decoration: line-through;
 }
 
 .todo-item span {
-    border-radius: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 2px;
-    padding-right: 2px;
-    background-color: transparent;
-    opacity: 0.3;
+    opacity: 0.7;
+}
+
+.todo-item span:hover {
+    opacity: 1;
+
     transition: all 500ms linear;
     -webkit-transition: all 500ms linear;
     -moz-transition: all 500ms linear;
 }
 
-.todo-item span:hover {
+.todo-item button {
+    border-radius: 10px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    background-color: transparent;
+    opacity: 0.3;
+
+    transition: all 500ms linear;
+    -webkit-transition: all 500ms linear;
+    -moz-transition: all 500ms linear;
+}
+
+.todo-item button:hover {
     background-color: rgba(129, 247, 113, 0.822);
     opacity: 1;
+
     transition: all 500ms linear;
     -webkit-transition: all 500ms linear;
     -moz-transition: all 500ms linear;

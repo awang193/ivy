@@ -1,6 +1,9 @@
+.todo-app {
+    height: 100vh;
+}
+
 p {
     font-family: "Roboto", Roboto, monospace;
-    font-weight: bold;
     color: rgb(88, 73, 54);
 }
 
